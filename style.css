@@ -13,7 +13,7 @@ li{
 
 nav{ 
 
-    background-color: black; 
+    background-color: rgb(255, 0, 0); 
     padding: 0 20px;
     justify-content: space-between; 
     font-size: 20px;
@@ -24,7 +24,7 @@ nav{
     
 } 
 
-    h1,p { 
+    h1,a { 
         color: white;
     }
 
@@ -34,16 +34,16 @@ h1,ul {
     flex-direction: row;
 } 
 
-p{ 
+a{ 
     padding: 20px;
     position: relative ; 
-    left: 730px ; 
-    top: 50px; 
+    left: 830px ; 
+    top: 90px; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    
 } 
 
-p:hover{ 
+a:hover{ 
     cursor: pointer;
     opacity: 0.6;
     background-color:#5E17EB; 
@@ -54,8 +54,8 @@ h1{
 
     font-size: 50px;
     position:relative; 
-    top: -30px; 
-    left: -36px;
+    top: -5px; 
+    left: -16px;
 
 }  
 
@@ -77,6 +77,34 @@ img{
 
 } 
 
+.quadrado2{ 
+    
+    width: 1100px;
+    position: absolute; 
+    top: 1000px;
+    left: 160px; 
+    height: 400px;
+
+    
+
+}  
+
+.quadrado3{ 
+    
+    width: 1100px;
+    position: absolute; 
+    top: 870px;
+    left: 158px; 
+    height: 100px;
+
+    
+
+} 
+
+
+
+
+
 .linharoxa{ 
     width: 600px; 
     height: 8px;
@@ -97,11 +125,22 @@ img{
 
 } 
 
+.linharoxa3{ 
+    width: 600px; 
+    height: 8px;
+    position: absolute; 
+    left: 360px; 
+    top: 980px;  
+    
+
+} 
+
+
 .part1{ 
 
     position: relative; 
     left: 600px; 
-    top: 30px; 
+    top: 200px; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }  
@@ -118,12 +157,80 @@ img{
     text-align: center;
     position: relative; 
     left: 500px; 
-    top: 10px; 
+    top: 200px; 
     max-width: 530px;
     
 }
 
 
+#texto2{ 
+
+    position: absolute; 
+    left: 200px;
+    top: 860px; 
+    font-size: 55px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
+    
+} 
+
+#texto3{ 
+
+    position: absolute; 
+    left: 600px;
+    top: 1060px; 
+    font-size: 25px; 
+    max-width: 1000px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.imagem1{ 
+
+    position: absolute; 
+    top: 1040px; 
+    left: 210px;
+    border: 9px solid #5E17EB;
+} 
+
+nav ul{ 
+
+    position: fixed; 
+    top: -20px;
+    list-style: none; 
+    display: flex;
+    gap: 2rem; 
+    background-color: black; 
+    width: 1500px;  
+    height: 150px;
+
+    left: 0;
+   
+}  
+
+#Projeto{  
+    position: absolute; 
+    left: 200px;
+    top: 886px; 
+    font-size: 65px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
+    color: white;
+
+} 
+
+section{ 
+    min-height: 80vh;
+    
+} 
+
+html{ 
+    scroll-behavior: smooth;
+} 
+
+#menu{ 
+    position: absolute; 
+    top: 1px;
+}
 
 
 
